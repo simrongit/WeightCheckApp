@@ -1,5 +1,0 @@
-<span *ngFor="let vm of cVmList">
-	<span *ngIf="vm.user && vm.user !== cUser" class="col-sm-6">
-		<button class="btn btn-default" [disabled]="true" style="margin:10px">{{vm.vmName}}</button> Locked by {{vm.user}}
-	</span>
-</span>
